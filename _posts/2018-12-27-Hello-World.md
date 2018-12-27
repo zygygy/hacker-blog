@@ -1,7 +1,9 @@
 ---
-title: Another Sample Page
+title: Hello, World!
 published: true
 ---
+
+이 블로그는 아직 준비를 위해 공사중 입니다.
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
