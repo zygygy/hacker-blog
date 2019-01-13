@@ -3,7 +3,7 @@ title: "Kakao coding test: Dart game"
 published: true
 ---
 
-국내 회사들도 개발자 채용을 위해 코딩 테스트와 테크니컬 인터뷰를 적극 도입하고 있다. 얼마전 화제가 되었던 카카오 신입 공채 코딩 테스트 문제 하나를 풀어보자.
+국내 회사들도 개발자 채용을 위해 코딩 테스트를 적극 도입하고 있다. 얼마전 화제가 되었던 카카오 신입 공채 코딩 테스트 문제 중에서 하나를 풀어보자.
 
 # 문제
 
@@ -11,9 +11,10 @@ published: true
 
 [http://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1](http://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1)
 
+# 풀이
+
 ```py
 import re
-
 
 def char_to_power(ch):
     if ch == 'S':
@@ -76,7 +77,7 @@ for score_str, expected_score, _ in test_cases:
 
 직접 실행해보기: [https://tech.io/snippet/goMCpvi](https://tech.io/snippet/goMCpvi){:target="_blank"}
 
-# 사족
+# Takeaways
 
-* 매번 느끼지만, 간단한 정규식이라도 테스터 없이 만들기는 쉽지 않다.
+* 간단한 정규식이라도 테스터 없이 만들기는 쉽지 않다.
 * 문자열 파싱과 점수 계산 로직을 별도의 함수로 만들었다.
