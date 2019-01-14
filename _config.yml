@@ -30,3 +30,6 @@ plugins:
 # Custom variables
 owner : "zygygy"
 year : "2018"
+
+# Google Analytics
+google_analytics: UA-132465883-1
