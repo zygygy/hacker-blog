@@ -1,4 +1,4 @@
-title: My first blog
+title: Programming for fun and profit
 description: "Programming for fun and profit"
 author:
   name: "zygygy"
@@ -10,7 +10,7 @@ baseurl: /
 source: .
 destination: ./_site
 permalink: /:title
-paginate: 3
+paginate: 5
 paginate_path: /page/:num/
 
 defaults:

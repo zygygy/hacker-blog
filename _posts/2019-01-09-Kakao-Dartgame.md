@@ -1,5 +1,5 @@
 ---
-title: "Kakao coding test: Dart game"
+title: "카카오 신입 공채 코딩 테스트: 다트 게임"
 published: true
 ---
 
