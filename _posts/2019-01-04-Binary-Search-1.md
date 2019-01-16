@@ -1,5 +1,5 @@
 ---
-title: "Binary Search #1"
+title: "이진탐색 - Binary Search #1"
 published: true
 ---
 

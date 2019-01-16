@@ -1,5 +1,5 @@
 ---
-title: "Quick select"
+title: "퀵 선택 - Quick select"
 published: true
 ---
 
