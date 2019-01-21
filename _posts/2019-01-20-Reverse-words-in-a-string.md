@@ -49,7 +49,13 @@ void swap(char* pa, char* pb) {
 ```
 
 어디서 많이 본듯한 이 함수는 C언어 문법책에서 포인터를 배우면서 지겹도록 봤던 swap 함수다. (모르나? --;)
-이 swap 함수를 이용해서 문자열을 뒤집는 함수를 만들어보자.
+
+'XOR을 이용하면 더 빠르게 swap을 할 수 있어요.'
+이런 주장을 하는 경우가 있는데, 실전에서는 웬만하면 그러지 말자.
+* <https://betterexplained.com/articles/swap-two-variables-using-xor>
+* <https://en.wikipedia.org/wiki/XOR_swap_algorithm#Reasons_for_avoidance_in_practice>
+
+그럼, swap 함수를 이용해서 문자열을 뒤집는 함수를 만들어보자.
 
 ```c
 void reverse(char* begin, char* end) {
