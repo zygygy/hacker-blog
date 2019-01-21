@@ -36,14 +36,14 @@ def product_of_all_others(nums):
             output[i] = so_far * output[i]
             so_far *= ns[i]
     size = len(nums)
-    prod = [1] * len(nums)
+    prod = [1] * size
     product_all(prod, nums, range(size))
     product_all(prod, nums, range(size - 1, -1, -1))
     return prod
 
 ```
 
-직접 실행해보기: [https://tech.io/snippet/WyinG7y](https://tech.io/snippet/WyinG7y)
+직접 실행해보기: [https://tech.io/snippet/9ttNwnC](https://tech.io/snippet/9ttNwnC)
 
 ## Lazy range in Python 3
 
