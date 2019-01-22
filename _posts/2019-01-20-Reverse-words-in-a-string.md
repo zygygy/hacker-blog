@@ -26,7 +26,7 @@ published: true
 
 물론 시간 복잡도는 O(n)
 
-출처: Leetcode 151 - [https://leetcode.com/problems/reverse-words-in-a-string](https://leetcode.com/problems/reverse-words-in-a-string)
+출처: Leetcode 151 - <https://leetcode.com/problems/reverse-words-in-a-string>{:target="_blank"}
 
 # 풀이
 
@@ -52,8 +52,8 @@ void swap(char* pa, char* pb) {
 
 'XOR을 이용하면 더 빠르게 swap을 할 수 있어요.'
 이런 주장을 하는 경우가 있는데, 실전에서는 웬만하면 그러지 말자.
-* <https://betterexplained.com/articles/swap-two-variables-using-xor>
-* <https://en.wikipedia.org/wiki/XOR_swap_algorithm#Reasons_for_avoidance_in_practice>
+* <https://betterexplained.com/articles/swap-two-variables-using-xor>{:target="_blank"}
+* <https://en.wikipedia.org/wiki/XOR_swap_algorithm#Reasons_for_avoidance_in_practice>{:target="_blank"}
 
 그럼, swap 함수를 이용해서 문자열을 뒤집는 함수를 만들어보자.
 
@@ -111,7 +111,7 @@ void reverse_words(char* str, size_t length) {
 }
 ```
 
-직접 실행해보기: [https://tech.io/snippet/BxZcOlN](https://tech.io/snippet/BxZcOlN)
+직접 실행해보기: <https://tech.io/snippet/BxZcOlN>{:target="_blank"}
 
 ## 공백문자 처리 포함
 
@@ -184,7 +184,7 @@ size_t reverse_words_with_trim(char* str, size_t length) {
 }
 ```
 
-직접 실행해보기: [https://tech.io/snippet/8Bspy4P](https://tech.io/snippet/8Bspy4P)
+직접 실행해보기: <https://tech.io/snippet/8Bspy4P>{:target="_blank"}
 
 # Takeaway
 

@@ -1,6 +1,8 @@
 ---
 title: "곱하기 배열 퍼즐 - Product array puzzle"
 published: true
+categories: [problem]
+tags: [array, puzzle, easy, range]
 ---
 
 # 문제
@@ -19,7 +21,7 @@ Follow-up: what if you can't use division?
 
 추가 조건: 공간 복잡도 O(1) 으로 풀어라.
 
-* 출처 [https://www.geeksforgeeks.org/a-product-array-puzzle](https://www.geeksforgeeks.org/a-product-array-puzzle)
+* 출처 <https://www.geeksforgeeks.org/a-product-array-puzzle>{:target="_blank"}
 
 # 풀이
 
@@ -43,12 +45,12 @@ def product_of_all_others(nums):
 
 ```
 
-직접 실행해보기: [https://tech.io/snippet/9ttNwnC](https://tech.io/snippet/9ttNwnC)
+직접 실행해보기: <https://tech.io/snippet/9ttNwnC>{:target="_blank"}
 
 ## Lazy range in Python 3
 
 Python 3는 range가 lazy 하다는 것을 주목하자. Python 2에는 xrange가 있지만 Python 3의 range가 여러가지로 더 좋아졌다고 한다.
-[https://treyhunner.com/2018/02/python-3-s-range-better-than-python-2-s-xrange/](https://treyhunner.com/2018/02/python-3-s-range-better-than-python-2-s-xrange/)
+<https://treyhunner.com/2018/02/python-3-s-range-better-than-python-2-s-xrange/>{:target="_blank"}
 
 # Takeaway
 
